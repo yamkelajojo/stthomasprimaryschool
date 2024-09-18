@@ -54,15 +54,15 @@ const toggleSticks = () => {
 }
 
 .stick-1.open {
-    animation: stick-1-open .2s ease-out forwards;
+    animation: stick-1-open .3s ease-out forwards;
 }
 
 .stick-2.open {
-    animation: stick-2-open .2s linear forwards;
+    animation: stick-2-open .3s linear forwards;
 }
 
 .stick-3.open {
-    animation: stick-3-open .2s linear forwards;
+    animation: stick-3-open .3s linear forwards;
 }
 
 @keyframes stick-1-open {
@@ -117,21 +117,21 @@ const toggleSticks = () => {
 .stick-1.close {
     width: 8px;
     transform: translate(27px, 26px);
-    animation: stick-1-close .2s ease-out forwards;
+    animation: stick-1-close .3s ease-out forwards;
 }
 
 .stick-2.close {
     transform: translate(0px, 0px) rotate(40deg);
-    animation: stick-2-close .2s ease-out forwards;
+    animation: stick-2-close .3s ease-out forwards;
 }
 
 .stick-3.close {
     transform: translate(0px, -23px) rotate(-40deg);
-    animation: stick-3-close .2s ease-out forwards;
+    animation: stick-3-close .3s ease-out forwards;
 }
 
 .btnWrapper {
-    scale: 0.35;
+    scale: 0.30;
 }
 
 @keyframes stick-1-close {

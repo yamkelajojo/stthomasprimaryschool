@@ -1,0 +1,19 @@
+.navMenu-slide-in-enter-active,
+.navMenu-slide-in-leave-active {
+  transition: all 0.5s ease;
+}
+
+.navMenu-slide-in-enter-from,
+.navMenu-slide-in-leave-to {
+  opacity: 0;
+  transform: translateX(-500px);
+}
+
+.link {
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: rgb(40, 40, 40);
+  cursor: pointer;
+}

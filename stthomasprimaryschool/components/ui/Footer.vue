@@ -1,5 +1,5 @@
 <template>
-    <footer class="flex justify-center py-4 shadow-xl bg-white">
+    <footer class="flex justify-center py-4 shadow-xl bg-gray-400">
         <p class="text-center">Copyright © 2024 PYN All Rights Reserved</p>
     </footer>
 </template>
@@ -8,4 +8,8 @@
 
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+footer {
+    z-index: 10;
+}
+</style>

@@ -1,7 +1,7 @@
 <template>
     <div class="my-full-body flex flex-col">
         <NavBar @toggle-menu="toggleMenu" />
-        <div class="main-body  bg-gray-400">
+        <div class="main-body flex items-center bg-gray-300">
             <slot :isNavMenuOpen='isNavMenuOpen'></slot>
         </div>
         <Footer />
